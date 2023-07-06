@@ -1,0 +1,42 @@
+{
+  "name": "pdf-uploader",
+  "version": "1.0.0",
+  "description": "Pdf uploader.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --config jest.config.js --coverage",
+    "dev": "nodemon server.js",
+    "lint": "eslint -c .eslintrc config/**/*.js db/**/*.js errors/**/*.js modules/**/*.js lib/**/*.js app.js index.js server.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "node-starter-kit"
+  ],
+  "author": "Rishabh pachori",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs-extra": "11.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.11",
+    "muhammara": "^3.8.0",
+    "multer": "^1.4.5-lts.1",
+    "node-qpdf": "1.0.3",
+    "pdfkit": "^0.13.0",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.1.2",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.1"
+  }
+}
